@@ -1,0 +1,62 @@
+
+
+# materials
+
+material mirror diffuse solid (0.9 0.9 0.9) false
+
+material red specular solid (.8 .1 .1) false
+
+material green diffuse solid (0 1 .75) false
+
+material purple glass solid (1 0 1) false
+
+material gold metal solid (1 0.75 .1) false 0.5
+
+material floor diffuse solid (.8 .8 .8) false
+
+material light diffuse solid (1 1 1) true
+
+material sun diffuse solid (.95 .8 .5) true 
+
+material sky diffuse solid (.4 .4 .7) false
+
+material smallLight diffuse solid (.8 .8 1) true
+
+material whiteLight diffuse solid (1 1 1) true
+
+material blackFloor diffuse solid (0 0 0) false
+
+material clear glass solid (1 1 1) false
+
+material floor2 diffuse solid (.8 .8 .8) false
+
+material greenLight diffuse solid (.1 1 .1) true
+
+# objects
+
+mesh (1.25 -.5 0) 1 pyramid.txt purple
+#mesh (2.5 2 0) 1 openBox.txt gold
+#mesh (2.5 2 .1) .5 box.txt greenLight
+mesh (1.25 -.5 4) 4 upsideDown.txt purple
+mesh (1.25 -.5 .75) 1 upsideDown.txt whiteLight
+#sphere (-2 2 1) 1 clear
+#sphere (-2 2 1) .6 red
+mesh (1.25 -.5 3.25) .25 pyramid.txt whiteLight
+# floor
+
+sphere (0 0 -1000) 1000 floor
+
+# sky
+
+sphere (-50 0 60) 60 sun
+#sphere (0 0 0) 150 sky
+
+# rendering
+
+rays 10 300
+
+camera (13 1.5 2) (0 -.5 2) (0 0 1) 25
+
+pixels 1920 1080
+
+output test.png

@@ -1,0 +1,54 @@
+
+
+# materials
+
+material whiteLight diffuse solid (1 1 1) true
+
+material wall diffuse solid (.4 .5 .4) false
+
+material floor diffuse solid (1 .9 .7) false
+
+material roof glass solid (.9 .9 .9) false
+
+material red diffuse solid (1 0 0) false
+
+material sky diffuse solid (1 1 1) false
+
+# objects
+
+# room
+
+mesh (-1.8 0 0) .5 wall.txt wall
+mesh (1.5 0 0) .5 wall.txt wall
+mesh (0 0 2) .5 halfWall2.txt wall
+mesh (1.5 0 0) .5 wall2.txt wall
+mesh (1.5 -3.5 0) .5 wall2.txt wall
+mesh (1.5 -2 0) .5 halfWallSlant.txt wall
+mesh (1.5 -2 3) .5 halfWall.txt wall
+mesh (-4.8 0 0) .5 wall2.txt wall
+mesh (-4.8 -2 0) .5 wall2.txt wall
+mesh (-4.8 -4 0) .5 wall2.txt wall
+
+mesh (0 0 10) 1 floor.txt roof
+
+mesh (-3.9 -3 .5) .2 shelf.txt floor
+
+mesh (0 0 .5) 1 floor.txt floor
+
+mesh (1.25 3 0) .5 wall.txt wall
+mesh (0 3 .5) 1 floor.txt floor
+# sky
+
+sphere (0 -100 0) 75 whiteLight
+sphere (0 -95 50) 90 whiteLight
+sphere (6 -3 5) 2 whiteLight
+
+# rendering
+
+rays 10 300
+
+camera (-1.6 -15.25 3) (-1.5 0 3) (0 0 1) 30
+#camera (-50 -15 100) (-1.5 0 3) (0 0 1) 30
+pixels 1000 1000
+
+output test.png
