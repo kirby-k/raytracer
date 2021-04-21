@@ -1,0 +1,56 @@
+
+
+# materials
+
+material mirror specular solid (0.9 0.9 0.9) false
+
+material red metal solid (0.8 0.2 0.2) false .5
+
+material green diffuse solid (0 1 .75) false
+
+material purple metal solid (1 0 1) false .1
+
+material gold metal solid (1 0.75 0) false 0.5
+
+material floor diffuse solid (.8 .8 .8) false
+
+material light diffuse solid (1 1 1) true
+
+material sun diffuse solid (.75 .6 .3) true 
+
+material sky diffuse solid (.05 .05 .1) true
+
+material smallLight diffuse solid (.8 .8 1) true
+
+# objects
+
+sphere (-3 0 1) 1 red
+
+sphere (-1.5 -3 1) 1 green
+
+sphere (1.5 -3 1) 1 purple
+
+sphere (0 1 1) 1 mirror
+
+sphere (3 0 1) 1 gold
+
+sphere (0 -1.25 .2) .2 smallLight
+
+# floor
+
+sphere (0 0 -1000) 1000 floor
+
+# sky
+
+sphere (-50 0 60) 60 sun
+sphere (0 0 0) 100 sky
+
+# rendering
+
+rays 10 10
+
+camera (0 -12 3.5) (0 0 0) (0 0 1) 25
+
+pixels 1920 1080
+
+output test.png

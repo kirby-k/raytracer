@@ -1,0 +1,3 @@
+/home/kirby/csc/csc410/current/build/CMakeFiles/rebuild_cache.dir
+/home/kirby/csc/csc410/current/build/CMakeFiles/edit_cache.dir
+/home/kirby/csc/csc410/current/build/CMakeFiles/test.dir

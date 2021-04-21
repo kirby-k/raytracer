@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CMake",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "/home/kirby/csc/csc410/current/build/test",
+            //"program": "/usr/bin/mpirun",
+            "program": "/usr/bin/time",
+            //time mpirun --oversubscribe -np 16 ./a.out
+            "args": ["/usr/bin/mpirun","--oversubscribe","-np","14","/home/kirby/csc/csc410/current/build/test"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+# materials
+
+material red diffuse solid (1 0 0) false
+
+material purple glass solid (1 0 1) false
+
+material gold metal solid (1 0.75 0) false 0.5
+
+material floor diffuse solid (.8 .8 .8) false
+
+material sun diffuse solid (.95 .8 .5) true 
+
+material whiteLight diffuse solid (1 1 1) true
+
+material clear glass solid (1 1 1) false
+
+material greenLight diffuse solid (0 1 0) true
+
+# objects
+
+mesh (1.25 -.5 0) 1 pyramid.txt purple
+mesh (2.5 2 0) 1 openBox.txt gold
+mesh (3 2.5 0) .5 box.txt greenLight
+mesh (1.25 -.5 .75) 1 upsideDown.txt whiteLight
+sphere (-2 2 1) .6 red
+sphere (-2 2 1) 1 clear
+
+# floor
+
+sphere (0 0 -1000) 1000 floor
+
+# sky
+
+sphere (-50 0 60) 60 sun
+
+# rendering
+
+rays 10 300
+
+camera (7 -6 4) (2.25 0 1) (0 0 1) 25
+
+pixels 1920 1080
+
+output test.png

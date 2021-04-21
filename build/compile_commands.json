@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/camera.cpp.o -c /home/kirby/csc/csc410/current/camera.cpp",
+  "file": "/home/kirby/csc/csc410/current/camera.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/hit.cpp.o -c /home/kirby/csc/csc410/current/hit.cpp",
+  "file": "/home/kirby/csc/csc410/current/hit.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/lodepng.cpp.o -c /home/kirby/csc/csc410/current/lodepng.cpp",
+  "file": "/home/kirby/csc/csc410/current/lodepng.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/main.cpp.o -c /home/kirby/csc/csc410/current/main.cpp",
+  "file": "/home/kirby/csc/csc410/current/main.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/pixels.cpp.o -c /home/kirby/csc/csc410/current/pixels.cpp",
+  "file": "/home/kirby/csc/csc410/current/pixels.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/ray.cpp.o -c /home/kirby/csc/csc410/current/ray.cpp",
+  "file": "/home/kirby/csc/csc410/current/ray.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/roundoff.cpp.o -c /home/kirby/csc/csc410/current/roundoff.cpp",
+  "file": "/home/kirby/csc/csc410/current/roundoff.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/sphere.cpp.o -c /home/kirby/csc/csc410/current/sphere.cpp",
+  "file": "/home/kirby/csc/csc410/current/sphere.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/vector3d.cpp.o -c /home/kirby/csc/csc410/current/vector3d.cpp",
+  "file": "/home/kirby/csc/csc410/current/vector3d.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/world.cpp.o -c /home/kirby/csc/csc410/current/world.cpp",
+  "file": "/home/kirby/csc/csc410/current/world.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/parser.cpp.o -c /home/kirby/csc/csc410/current/parser.cpp",
+  "file": "/home/kirby/csc/csc410/current/parser.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/materials.cpp.o -c /home/kirby/csc/csc410/current/materials.cpp",
+  "file": "/home/kirby/csc/csc410/current/materials.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/specular.cpp.o -c /home/kirby/csc/csc410/current/specular.cpp",
+  "file": "/home/kirby/csc/csc410/current/specular.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/diffuse.cpp.o -c /home/kirby/csc/csc410/current/diffuse.cpp",
+  "file": "/home/kirby/csc/csc410/current/diffuse.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/metal.cpp.o -c /home/kirby/csc/csc410/current/metal.cpp",
+  "file": "/home/kirby/csc/csc410/current/metal.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/unreal.cpp.o -c /home/kirby/csc/csc410/current/unreal.cpp",
+  "file": "/home/kirby/csc/csc410/current/unreal.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/random.cpp.o -c /home/kirby/csc/csc410/current/random.cpp",
+  "file": "/home/kirby/csc/csc410/current/random.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/texture.cpp.o -c /home/kirby/csc/csc410/current/texture.cpp",
+  "file": "/home/kirby/csc/csc410/current/texture.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/solid.cpp.o -c /home/kirby/csc/csc410/current/solid.cpp",
+  "file": "/home/kirby/csc/csc410/current/solid.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/check.cpp.o -c /home/kirby/csc/csc410/current/check.cpp",
+  "file": "/home/kirby/csc/csc410/current/check.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/gradient.cpp.o -c /home/kirby/csc/csc410/current/gradient.cpp",
+  "file": "/home/kirby/csc/csc410/current/gradient.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/glass.cpp.o -c /home/kirby/csc/csc410/current/glass.cpp",
+  "file": "/home/kirby/csc/csc410/current/glass.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/object.cpp.o -c /home/kirby/csc/csc410/current/object.cpp",
+  "file": "/home/kirby/csc/csc410/current/object.cpp"
+},
+{
+  "directory": "/home/kirby/csc/csc410/current/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -g -std=c++17 -Ofast -flto -o CMakeFiles/test.dir/triangle.cpp.o -c /home/kirby/csc/csc410/current/triangle.cpp",
+  "file": "/home/kirby/csc/csc410/current/triangle.cpp"
+}
+]
